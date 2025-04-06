@@ -1,0 +1,125 @@
+
+
+.body-medium {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+.body-medium:hover{
+    color: #404BBF;
+}
+
+/*
+.body-medium:active{
+    color: #404BBF;
+    text-decoration: Underline ;    
+}
+*/
+
+.body {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.body:hover{
+    color: #404BBF;
+}
+
+.part-title{
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+}
+.header-1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-text {
+    font-family: Roboto;
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button-text:hover{
+    background-color: #404BBF;
+}
+
+
+.header-2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.header-3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.part-our-team{
+    width: 1440;
+    height: 732;
+    top: 1016px;
+    background-color: #F4F4FD;
+
+}
+
+
+.small-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #F4F4FD;
+}
+
+
+.link-text {
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: Underline ;
+}
+
+.part-end{
+    width: 1440;
+    height: 312;
+    top: 2988px;
+    background-color: #2E2F42;
+}
