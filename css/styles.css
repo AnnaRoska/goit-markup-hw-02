@@ -33,16 +33,17 @@ body{
     color: #404BBF;
 }
 
-.part-title{
+.part-one{
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
     top: 72px;
 }
-.part-one{
+.part-two{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    color: #434455;
 
 }
 .header-one {
@@ -53,6 +54,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    line-height: 1.07;
 }
 
 .button-text {
@@ -109,7 +111,7 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.part-our-team{
+.part-three{
     width: 1440;
     height: 732;
     top: 1016px;
@@ -117,7 +119,9 @@ body{
 
 }
 
-
+.list-one{
+    background-color: #FFFFFF;
+}
 .small-text {
     font-family:Roboto, sans-serif;
     font-weight: 400;
@@ -161,7 +165,8 @@ body{
     color: #2e2f42;
 }
 p{
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .body-address{
     font-style: normal;
