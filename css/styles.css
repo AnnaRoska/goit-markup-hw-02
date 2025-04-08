@@ -128,3 +128,21 @@ body{
     top: 2988px;
     background-color: #2E2F42;
 }
+
+.logo{
+    font-family:Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.name-logo{
+    color: #f4f4fd;
+}
+
+p{
+    letter-spacing: 0.02em
+}
