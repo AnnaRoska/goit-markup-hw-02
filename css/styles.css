@@ -7,29 +7,25 @@ body{
 
 .body-medium {
     font-family: Roboto, sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .body-medium:hover{
     color: #404BBF;
 }
-
-/*
-.body-medium:active{
-    color: #404BBF;
-    text-decoration: Underline ;    
+.body-medium:focus{
+    color: #404bbf;
 }
-*/
 
 .body {
     font-family: Roboto, sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -43,12 +39,18 @@ body{
     height: 600px;
     top: 72px;
 }
-.header-1 {
+.part-one{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
+}
+.header-one {
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -68,32 +70,45 @@ body{
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button-text:hover{
     background-color: #404BBF;
 }
+.button-text:focus{
+    background-color: #404BBF;
+}
 
-
-.header-2 {
+.header-two {
     font-family:Roboto, sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 
-.header-3 {
+.header-three {
     font-family:Roboto, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    line-height: 1.2;
 }
-
+.name-profession{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .part-our-team{
     width: 1440;
     height: 732;
@@ -108,7 +123,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 
@@ -118,7 +133,7 @@ body{
     font-weight: Regular;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-decoration: Underline ;
 }
 
@@ -139,10 +154,27 @@ body{
     color: #4d5ae5;
 }
 
-.name-logo{
+.name-logo-end{
     color: #f4f4fd;
 }
-
+.name-logo-start{
+    color: #2e2f42;
+}
 p{
     letter-spacing: 0.02em
+}
+.body-address{
+    font-style: normal;
+}
+.body-contacts{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.body-contacts:hover{
+    color: #404bbf;
+}
+.body-contacts:focus{
+    color: #404bbf;
 }
