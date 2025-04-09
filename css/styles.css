@@ -32,11 +32,6 @@ body{
 .body:hover{
     color: #404BBF;
 }
-/*
-.hdr{
-    width: 1440px;
-    height: 72px;
-*/
 
 .part-one{
     background-color: #2E2F42;
@@ -60,17 +55,6 @@ body{
 
 .btn {
     font-family: Roboto, sans-serif;
-    /*width: 169px;
-    height: 56px;
-    top: 428px;
-    left: 636px;
-    gap: 10px;
-    border-radius: 4px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    */
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -110,9 +94,6 @@ body{
 }
 
 .part-three{
-    /*width: 1440;
-    height: 732;
-    top: 1016px;*/
     background-color: #F4F4FD;
 
 }
@@ -140,9 +121,6 @@ body{
 }
 
 .part-end{
-    width: 1440;
-    height: 312;
-    top: 2988px;
     background-color: #2E2F42;
 }
 
@@ -169,14 +147,6 @@ body{
     line-height: 1.5;
 
 }
-/*
-.name-profession{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-*/
 .body-address{
     font-style: normal;
 }
