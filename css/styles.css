@@ -80,10 +80,10 @@ body{
 
 }
 
-.btn-text:hover{
+.btn:hover{
     background-color: #404BBF;
 }
-.btn-text:focus{
+.btn:focus{
     background-color: #404BBF;
 }
 
