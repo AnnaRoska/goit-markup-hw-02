@@ -32,19 +32,20 @@ body{
 .body:hover{
     color: #404BBF;
 }
+/*
+.hdr{
+    width: 1440px;
+    height: 72px;
+*/
 
 .part-one{
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
 }
 .part-two{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 .header-one {
     font-family: Roboto, sans-serif;
@@ -52,14 +53,14 @@ body{
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #FFFFFF;
     line-height: 1.07;
 }
 
-.button-text {
+.btn {
     font-family: Roboto, sans-serif;
-    width: 169px;
+    /*width: 169px;
     height: 56px;
     top: 428px;
     left: 636px;
@@ -69,12 +70,14 @@ body{
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
+    */
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
 }
 
 .button-text:hover{
@@ -105,16 +108,11 @@ body{
     color: #2E2F42;
     line-height: 1.2;
 }
-.name-profession{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .part-three{
-    width: 1440;
+    /*width: 1440;
     height: 732;
-    top: 1016px;
+    top: 1016px;*/
     background-color: #F4F4FD;
 
 }
@@ -164,13 +162,21 @@ body{
 .name-logo-start{
     color: #2e2f42;
 }
-p{
+.text-p{
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    
+
 }
+/*
+.name-profession{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+*/
 .body-address{
     font-style: normal;
 }
